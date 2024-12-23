@@ -19,6 +19,7 @@
 		C7DD48592D19E34300768379 /* NewsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DD48582D19E34300768379 /* NewsRouter.swift */; };
 		C7DD485B2D19E38F00768379 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DD485A2D19E38F00768379 /* NewsViewController.swift */; };
 		C7DD485E2D19E6CA00768379 /* ServerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DD485D2D19E6CA00768379 /* ServerService.swift */; };
+		C7DD48622D19F5A500768379 /* ArticleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DD48612D19F5A500768379 /* ArticleModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		C7DD48582D19E34300768379 /* NewsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsRouter.swift; sourceTree = "<group>"; };
 		C7DD485A2D19E38F00768379 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
 		C7DD485D2D19E6CA00768379 /* ServerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerService.swift; sourceTree = "<group>"; };
+		C7DD48612D19F5A500768379 /* ArticleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 		C7DD48602D19F1B500768379 /* Entities */ = {
 			isa = PBXGroup;
 			children = (
+				C7DD48612D19F5A500768379 /* ArticleModel.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7DD48622D19F5A500768379 /* ArticleModel.swift in Sources */,
 				C7DD48572D19E33000768379 /* NewsProtocols.swift in Sources */,
 				C7DD48382D19D30000768379 /* AppDelegate.swift in Sources */,
 				C7DD485B2D19E38F00768379 /* NewsViewController.swift in Sources */,
