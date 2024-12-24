@@ -6,15 +6,21 @@
 //
 
 import Foundation
+import UIKit
 
 
 protocol NewsViewProtocol: AnyObject {
+    var newsTable: UITableView { get }
 }
 
 protocol NewsPresenterProtocol: AnyObject {
     var router: NewsRouterProtocol! { set get }
+    func presentNews()
     func configureView()
-    func closeButtonClicked()
+}
+
+protocol NewsDataStore: AnyObject {
+    var loadedNews: [ArticleModel]! { get }
 }
 
 protocol NewsInteractorProtocol: AnyObject {

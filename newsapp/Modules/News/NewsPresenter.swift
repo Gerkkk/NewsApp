@@ -6,9 +6,9 @@
 //
 
 import Foundation
+import UIKit
 
 class NewsPresenter: NewsPresenterProtocol {
-    
     weak var view: NewsViewProtocol!
     var interactor: NewsInteractorProtocol!
     var router: NewsRouterProtocol!
@@ -18,11 +18,16 @@ class NewsPresenter: NewsPresenterProtocol {
     }
     
     // MARK: - NewsPresenterProtocol methods
-    
-    func configureView() {
-    }
-    
     func closeButtonClicked() {
         router.closeCurrentViewController()
     }
+    
+    func presentNews() {
+        self.view.newsTable.reloadData()
+    }
+    
+    func configureView() {
+        
+    }
+    
 }

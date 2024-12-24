@@ -20,6 +20,10 @@
 		C7DD485B2D19E38F00768379 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DD485A2D19E38F00768379 /* NewsViewController.swift */; };
 		C7DD485E2D19E6CA00768379 /* ServerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DD485D2D19E6CA00768379 /* ServerService.swift */; };
 		C7DD48622D19F5A500768379 /* ArticleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DD48612D19F5A500768379 /* ArticleModel.swift */; };
+		C7DD48642D1AB3E600768379 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DD48632D1AB3E600768379 /* NewsCell.swift */; };
+		C7DD48662D1AB4CB00768379 /* UIView+Pin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DD48652D1AB4CB00768379 /* UIView+Pin.swift */; };
+		C7DD48682D1ABC5000768379 /* WishStoringDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DD48672D1ABC5000768379 /* WishStoringDataSource.swift */; };
+		C7DD486A2D1B5FBA00768379 /* ShimmerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DD48692D1B5FBA00768379 /* ShimmerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +42,10 @@
 		C7DD485A2D19E38F00768379 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
 		C7DD485D2D19E6CA00768379 /* ServerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerService.swift; sourceTree = "<group>"; };
 		C7DD48612D19F5A500768379 /* ArticleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleModel.swift; sourceTree = "<group>"; };
+		C7DD48632D1AB3E600768379 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
+		C7DD48652D1AB4CB00768379 /* UIView+Pin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Pin.swift"; sourceTree = "<group>"; };
+		C7DD48672D1ABC5000768379 /* WishStoringDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishStoringDataSource.swift; sourceTree = "<group>"; };
+		C7DD48692D1B5FBA00768379 /* ShimmerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +88,7 @@
 				C7DD48452D19D30500768379 /* LaunchScreen.storyboard */,
 				C7DD48482D19D30500768379 /* Info.plist */,
 				C7DD48402D19D30000768379 /* newsapp.xcdatamodeld */,
+				C7DD48652D1AB4CB00768379 /* UIView+Pin.swift */,
 			);
 			path = newsapp;
 			sourceTree = "<group>";
@@ -116,6 +125,8 @@
 		C7DD485F2D19EB4900768379 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				C7DD48632D1AB3E600768379 /* NewsCell.swift */,
+				C7DD48692D1B5FBA00768379 /* ShimmerView.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -124,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				C7DD48612D19F5A500768379 /* ArticleModel.swift */,
+				C7DD48672D1ABC5000768379 /* WishStoringDataSource.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -205,9 +217,13 @@
 				C7DD48552D19E31E00768379 /* NewsPresenter.swift in Sources */,
 				C7DD48592D19E34300768379 /* NewsRouter.swift in Sources */,
 				C7DD48422D19D30000768379 /* newsapp.xcdatamodeld in Sources */,
+				C7DD48662D1AB4CB00768379 /* UIView+Pin.swift in Sources */,
 				C7DD485E2D19E6CA00768379 /* ServerService.swift in Sources */,
 				C7DD483A2D19D30000768379 /* SceneDelegate.swift in Sources */,
+				C7DD48682D1ABC5000768379 /* WishStoringDataSource.swift in Sources */,
 				C7DD48512D19E2F600768379 /* NewsConfigurator.swift in Sources */,
+				C7DD486A2D1B5FBA00768379 /* ShimmerView.swift in Sources */,
+				C7DD48642D1AB3E600768379 /* NewsCell.swift in Sources */,
 				C7DD48532D19E31000768379 /* NewsInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

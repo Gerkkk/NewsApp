@@ -15,6 +15,7 @@ class NewsConfigurator: NewsConfiguratorProtocol {
         let interactor = NewsInteractor(presenter: presenter)
         let router = NewsRouter(viewController: viewController)
         
+        viewController.interactor = interactor
         viewController.presenter = presenter
         presenter.interactor = interactor
         presenter.router = router

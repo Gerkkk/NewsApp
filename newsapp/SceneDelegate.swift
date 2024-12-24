@@ -17,8 +17,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         let window = UIWindow(windowScene: windowScene)
         
+        let NewsConfig = NewsConfigurator()
+        let NewsViewContr = NewsViewController()
+        NewsConfig.configure(with: NewsViewContr)
+        
         let nav = UINavigationController(
-            rootViewController: NewsViewController()
+            rootViewController: NewsViewContr
         )
         window.rootViewController = nav
         self.window = window
